@@ -11,7 +11,7 @@ int a = int.Parse(st[0]);
 int b = int.Parse(st[1]);
 int c = int.Parse(st[2]);
 
-if (true){
+if (IsTriangle(a,b,c)){
     Console.WriteLine("Да");
 }
 else{
